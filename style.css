@@ -3,9 +3,42 @@
     margin: 0 auto;
     text-align: center;
 }
-input{
-    margin: 10px;
-}
 #p2{
     display: none;
+}
+#p3{
+    display: none;
+}
+#p4{
+    display: none;
+}
+p{
+    font: normal normal 600 20px/27px Open Sans;
+    opacity: 1;
+    color: #707070;
+}
+#action{
+    color: #F45E29;
+}
+#player{
+    max-width: fit-content;
+    margin: 0 auto;
+}
+#wrapper{
+    margin: 10px;
+}
+.actionBtn{
+    background: #F45E29 0% 0% no-repeat padding-box;
+    border: 1px solid rgb(250, 93, 41);
+    border-radius: 4px ;
+    opacity: 1;
+    font: normal normal 600 16px/22px Open Sans;
+    color: #FFFFFF;
+    width: 160px;
+    height: 45px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+#logo{
+    margin: 50px;
 }
