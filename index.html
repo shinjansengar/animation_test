@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation Test</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</head>
+<body>
+    <div id="anim">
+        <div>
+            <lottie-player
+                id="p1"
+                src="Idle.json"  
+                background="transparent"  
+                speed="1"  
+                style="width: 300px; height: 300px;"  
+                loop  
+                autoplay
+            >
+            </lottie-player>
+            <lottie-player 
+                id="p2"
+                src="Talking.json"  
+                background="transparent"  
+                speed="1"  
+                style="width: 300px; height: 300px;"  
+                loop  
+                autoplay
+            >
+            </lottie-player>
+        </div> 
+        <div>
+            <input type="button" value="Talking" id="talking" />
+            <input type="button" value="Idle" id="idle" />
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

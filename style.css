@@ -1,0 +1,11 @@
+#anim{
+    max-width: max-content;
+    margin: 0 auto;
+    text-align: center;
+}
+input{
+    margin: 10px;
+}
+#p2{
+    display: none;
+}
